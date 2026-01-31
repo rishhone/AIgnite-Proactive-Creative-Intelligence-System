@@ -1,0 +1,35 @@
+AIgnite/
+│
+├── config/
+│   └── system_config.yaml
+│
+├── data/
+│   ├── creatives.csv
+│   ├── campaign_context.csv
+│   ├── performance_history.csv
+│
+├── multimodal/
+│   ├── image_encoder.py
+│   ├── video_encoder.py
+│   ├── text_encoder.py
+│   └── fusion.py
+│
+├── prediction/
+│   └── ctr_quantile_predictor.py
+│
+├── causality/
+│   ├── causal_graph.py
+│   └── attribution.py
+│
+├── optimization/
+│   ├── llm_optimizer.py
+│   └── creative_generator.py
+│
+├── feedback/
+│   ├── human_feedback.py
+│   └── fatigue_model.py
+│
+├── outputs/
+│
+├── main.py
+└── README.md
