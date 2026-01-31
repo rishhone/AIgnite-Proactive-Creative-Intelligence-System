@@ -2,3 +2,16 @@ creative_id,creative_type,headline,cta
 CR001,image,"Limited offer today","Learn More"
 CR002,video,"Shop the new collection","Shop Now"
 CR003,image,"Upgrade your lifestyle","Buy Now"
+
+
+creative_id,placement,bid_type,audience_size,day_of_week
+CR001,Feed,LowestCost,150000,Mon
+CR002,Reels,CostCap,180000,Tue
+CR003,Feed,LowestCost,120000,Wed
+
+
+creative_id,day,impressions,clicks,ctr
+CR001,1,10000,85,0.0085
+CR001,2,11000,82,0.0074
+CR002,1,9000,120,0.0133
+CR003,1,9500,76,0.0080
